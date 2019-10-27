@@ -1,2 +1,2 @@
 # web-project-template
-A web project template by parce
+A web project template by parcel
