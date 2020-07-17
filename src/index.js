@@ -1,7 +1,5 @@
-import initApp from './js/init.js';
+import initApp from "./js/init.js";
 
 import "./styles";
 
-
 initApp();
-

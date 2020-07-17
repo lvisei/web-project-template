@@ -1,7 +1,7 @@
-import parcelLogo from '../assets/images/parcel.png';
+import parcelLogo from "url:/src/assets/images/parcel.png";
 
 const initApp = () => {
-    document.getElementById("app").innerHTML = `
+  document.getElementById("app").innerHTML = `
 			<h1>Hello Parcel!</h1>
 				<div>
   				We use Parcel to bundle this sandbox, you can find more info about Parcel
@@ -9,6 +9,6 @@ const initApp = () => {
 				</div>
 				<img src="${parcelLogo}" alt="parcelLogo" width="250" height="200">
 		`;
-}
+};
 
-export default initApp
+export default initApp;
